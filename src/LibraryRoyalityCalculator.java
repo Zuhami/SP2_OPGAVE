@@ -13,7 +13,7 @@ public class LibraryRoyalityCalculator {
         author.addTitle(new AudioBook( "SPIDERMAN", "TE", 1000, 24));
 
 
-       System.out.println();
+     
 
         System.out.println("Forfatter : " + author.getName() + " : " + author.calculateTotalPay() + "kr");
     }
